@@ -1,0 +1,8 @@
+footer {
+  height: 20vh;
+  background-color: #282c34;
+}
+footer p {
+  padding-top: 10px;
+  color: aliceblue;
+}

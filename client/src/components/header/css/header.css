@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 20vh;
+  background-color: #282c34;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  height: 100%;
+  padding-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: large;
+  letter-spacing: 2px;
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(10, 138, 251);
+}
+
+.headerBtn {
+  background-color: transparent;
+  border: transparent;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: large;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.headerBtn:hover {
+  width: fit-content;
+  border: 1px solid royalblue;
+  border-radius: 6px;
+  padding: 5px;
+  text-decoration: none;
+  font-size: large;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
