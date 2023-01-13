@@ -1,11 +1,13 @@
 .allContainer {
   position: relative;
-  height: 100vh;
+  height: 550px;
+  /* height: 100%; */
 }
 
 .formDiv {
   position: absolute;
-  bottom: 20%;
+  /* bottom: 20%; */
+  top: 10%;
   left: 37%;
   display: flex;
   justify-content: center;
