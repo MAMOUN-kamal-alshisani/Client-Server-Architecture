@@ -1,20 +1,21 @@
-const mysql = require('mysql')
-
+const mysql = require("mysql");
 const connection = mysql.createConnection({
-  host:"localhost",
-    user:"root",
-    password:"",
-    database:"cbmisdb",
-    // port: process.env.PORT
-})
+  // host: process.env.HOST ||'localhost',
+  // user: process.env.USER || 'root',
+  // password: "",
+  // database: process.env.DATABASE || 'cbmisdb',
+  host: "localhost",
+  user: "root",
+  password: "",
+  database: "cbmisdb",
+});
 
-connection.connect((err)=> {
-    if (err) {
-      return console.error('error: ' + err.message);
-    }
-  
-    console.log('Connected to the MySQL server.');
-  });
+connection.connect((err) => {
+  if (err) {
+    return console.error("error: " + err.message);
+  }
 
+  console.log("Connected to the MySQL server.");
+});
 
-  module.exports = connection
+module.exports = connection;
